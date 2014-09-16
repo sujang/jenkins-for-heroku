@@ -383,7 +383,7 @@ THE SOFTWARE.
   </profiles>
 
   <repositories>
-    <repository>
+<!--     <repository>
       <id>m.g.o-public</id>
       <url>http://maven.glassfish.org/content/groups/public/</url>
       <releases>
@@ -393,9 +393,14 @@ THE SOFTWARE.
         <enabled>false</enabled>
       </snapshots>
     </repository>
+ -->
+    <repository>
+      <id>repo.jenkins-ci.org</id>
+      <url>http://repo.jenkins-ci.org/public/</url>
+    </repository>
   </repositories>
   <pluginRepositories>
-    <pluginRepository>
+<!--     <pluginRepository>
       <id>m.g.o-public</id>
       <url>http://maven.glassfish.org/content/groups/public/</url>
       <releases>
@@ -404,6 +409,11 @@ THE SOFTWARE.
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
+    </pluginRepository>
+ -->
+    <pluginRepository>
+      <id>repo.jenkins-ci.org</id>
+      <url>http://repo.jeenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
 </project>
